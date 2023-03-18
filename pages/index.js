@@ -27,7 +27,14 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               
-          
+              <Image
+                src="/GTEchlogo.png"
+                alt="GTechlogo"
+                className={styles.visionaidlogo}
+                width={345}
+                height={89}
+                priority
+              />
             </a>
           </div>
         </div>
