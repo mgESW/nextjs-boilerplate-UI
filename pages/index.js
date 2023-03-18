@@ -31,8 +31,8 @@ export default function Home() {
                 src="/GTEchlogo.png"
                 alt="GTechlogo"
                 className={styles.visionaidlogo}
-                width={200}
-                height={200}
+                width={345}
+                height={89}
                 priority
               />
             </a>
