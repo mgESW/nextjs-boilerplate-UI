@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Vision Aid
+            Vision Aid Partner Tracking System
             <code className={styles.code}></code>
           </p>
           <div>
@@ -42,8 +42,8 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/vision-aid-logo.jpeg"
-            alt="Vision Aid Logo"
+            src="/vision-aid-logo-trns.png"
+            alt="Vision Aid Logo Transparent"
             width={200}
             height={200}
             priority
