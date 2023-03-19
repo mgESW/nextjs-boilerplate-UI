@@ -57,7 +57,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://vision-aid-prototype-v1.vercel.app/"
+            href="https://vision-aid-prototype-v1.vercel.app/api/auth/signin?callbackUrl=https%3A%2F%2Fvision-aid-prototype-v1.vercel.app%2F"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -70,7 +70,7 @@ export default function Home() {
             </p>
           </a>
           
-          <a href="https://vision-aid-prototype-v1.vercel.app/"
+          <a href="https://vision-aid-prototype-v1.vercel.app/api/auth/signin?callbackUrl=https%3A%2F%2Fvision-aid-prototype-v1.vercel.app%2F"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -84,7 +84,7 @@ export default function Home() {
           </a>
           
           <a
-            href="https://vision-aid-prototype-v1.vercel.app/"
+            href="https://vision-aid-prototype-v1.vercel.app/api/auth/signin?callbackUrl=https%3A%2F%2Fvision-aid-prototype-v1.vercel.app%2F"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
