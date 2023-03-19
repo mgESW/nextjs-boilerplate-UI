@@ -80,15 +80,15 @@
 }
 
 nav {
-  margin: 10px left 80px;
+  margin: 5px auto 20px;
   padding: 10px 0;
-  display: grid;
+  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
 }
 nav a {
-  margin-left: 100px;
+  margin-left: 200px;
 }
 nav .logo {
   margin-left: auto;

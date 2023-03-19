@@ -19,9 +19,9 @@
 }
 
 .description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: left;
+  justify-content: left;
+  align-items: left;
   gap: 0.5rem;
 }
 
