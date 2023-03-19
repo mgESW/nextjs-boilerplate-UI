@@ -20,9 +20,9 @@ export default function Home() {
       
       <main className={styles.main}>
         <div className={styles.description}>
-        
-          <p>
-          <Navbar />
+        <Navbar />
+        <p>
+         
             <code className={styles.code}></code>
           </p>
           <div>
