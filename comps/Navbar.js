@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 
 const Navbar = () => {
     return (
@@ -6,9 +6,8 @@ const Navbar = () => {
         <div className="logo">
           <h1></h1>
         </div>
-       <a>Home</a>
-       <a>Login</a>
-        
+<Link legacyBehavior href={"/"}><a id="/">Home</a></Link>
+<Link legacyBehavior href={"/login"}><a id="/login">Login</a></Link>
       </nav>
   );
   }
