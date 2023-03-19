@@ -2,8 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+/*import Navbar from './navbar'*/
+/*import Footer from './footer'*/
 
 const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
@@ -14,10 +17,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Vision Aid
+            Vision Aid Partner Tracking System 
             <code className={styles.code}></code>
           </p>
           <div>
@@ -27,14 +31,8 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               
-              <Image
-                src="/GTEchlogo.png"
-                alt="GTechlogo"
-                className={styles.visionaidlogo}
-                width={345}
-                height={89}
-                priority
-              />
+          
+                
             </a>
           </div>
         </div>
@@ -42,8 +40,8 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/vision-aid-logo.jpeg"
-            alt="Vision Aid Logo"
+            src="/vision-aid-logo-trns.png"
+            alt="VisionAid Logo trns"
             width={200}
             height={200}
             priority
