@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import {useSession, signIn, signOut, getSession} from "next-auth/react";
+
 import Navbar from '../comps/Navbar'
 /*import Footer from './footer'*/
 
@@ -16,8 +18,11 @@ export default function Home() {
       
       <main className={styles.main}>
       <div className={styles.description}>
+
         <Navbar />
         
+        
+
         <code className={styles.code}></code>
         
          
@@ -57,7 +62,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://vision-aid-prototype-v1.vercel.app/api/auth/signin?callbackUrl=https%3A%2F%2Fvision-aid-prototype-v1.vercel.app%2F"
+            href=""
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -66,11 +71,11 @@ export default function Home() {
               Admin <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              For Vision Aid Admins to login and enter data.
+              For Vision Aid Admins to  and enter data.
             </p>
           </a>
           
-          <a href="https://vision-aid-prototype-v1.vercel.app/api/auth/signin?callbackUrl=https%3A%2F%2Fvision-aid-prototype-v1.vercel.app%2F"
+          <a href=""
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -84,7 +89,7 @@ export default function Home() {
           </a>
           
           <a
-            href="https://vision-aid-prototype-v1.vercel.app/api/auth/signin?callbackUrl=https%3A%2F%2Fvision-aid-prototype-v1.vercel.app%2F"
+            href=""
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -93,7 +98,7 @@ export default function Home() {
               Manager <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Manager Sign in for Vision Aid Beneficiaries.
+              Manager Overview for Vision Aid Beneficiaries.
             </p>
           </a>
         </div>
