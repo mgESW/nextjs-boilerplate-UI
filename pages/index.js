@@ -71,11 +71,11 @@ export default function Home() {
               Admin <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              For Vision Aid Admins to and enter data.
+              For Vision Aid Admins to  and enter data.
             </p>
           </a>
           
-          <a href="/tech"
+          <a href=""
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
