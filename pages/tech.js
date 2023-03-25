@@ -74,13 +74,16 @@ width={144}
 alt=""
 />
 <div className={styles.main}>
+<p className={styles.main}>
+Vision Aid Partner Tracking
+    System</p>
 <p className={styles.code}>
     This form is for submitting the personal information of a beneficiary
 </p>
 </div>
 <form action="#" method="POST" onSubmit={(e) => handleSubmit(e, selectedOption)}
-  className={styles.card}>
-<h1 className={styles.card}>
+  className={styles.main}>
+<h1 className={styles.description}>
     <h1>
         <label htmlFor="option-select" className={styles.card}>
             Select the desired subcategory
