@@ -63,8 +63,10 @@ export default function Home() {
     }
     
     return (
-    
+       
     <>   
+
+     <code className={styles.code}></code>
     {' '}
               <Image
                 src="/vision-aid-logo-trns.png"
@@ -80,6 +82,7 @@ Vision Aid Partner Tracking
     System</div>
 <p className={styles.code}>
     This form is for submitting the personal information of a beneficiary
+    
 </p>
 </div>
 <form action="#" method="POST" onSubmit={(e) => handleSubmit(e, selectedOption)}
