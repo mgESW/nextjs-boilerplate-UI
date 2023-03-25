@@ -75,7 +75,7 @@ export default function Home() {
             </p>
           </a>
           
-          <a href=""
+          <a href="/tech"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
