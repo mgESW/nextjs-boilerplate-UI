@@ -2,9 +2,11 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
-export function Home() {
-    return (
+export function Home(event) {
     
+        console.log(event);
+    }
+    return (
     <> 
 <Image
 src="/images/vision-aid-logo.jpg"
@@ -1433,4 +1435,4 @@ alt=""
 </div>
 </form>
 </>
-)}
+)
