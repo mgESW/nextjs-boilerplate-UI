@@ -1,11 +1,67 @@
+import {useState} from 'react'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import moment from 'moment';
 
 const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Home() {
+
+    const [selectedOption, setSelectedOption] = useState(null);
+    const [selectedProgram, setSelectedProgram] = useState(null);
+    const [agreed, setAgreed] = useState(false)
+    const [date, setDate] = useState();
+    const [hospitalName, setHospitalName] = useState();
+    const [sessionNumber, setSessionNummber] = useState();
+    const [mrn, setMRN] = useState("");
+    const [beneficiaryName, setBeneficiaryName] = useState("");
+    const [age, setAge] = useState();
+    const [gender, setGender] = useState("");
+    const [phoneNumber, setPhoneNumber] = useState("");
+    const [Education, setEducation] = useState("");
+    const [Occupation, setOccupation] = useState("");
+    const [Districts, setDistricts] = useState("");
+    const [State, setState] = useState("");
+    const [Diagnosis, setDiagnosis] = useState("");
+    const [Vision, setVision] = useState("");
+
+    const [MDVI, setMDVI] = useState("");
+    const [typeCounselling, settypeCounselling] = useState("");
+    const [schoolName, setschoolName] = useState("");
+    const [studentName, setstudentName] = useState("");
+    const [visualAcuityRE, setvisualAcuityRE] = useState("");
+    const [visualAcuityLE, setvisualAcuityLE] = useState("");
+    const [unaidedNearVision, setunaidedNearVision] = useState("");
+    const [refractionVALE, setrefractionVALE] = useState("");
+    const [LVA, setLVA] = useState("");
+    const [LVANear, setLVANear] = useState("");
+    const [nonOpticalAid, setnonOpticalAid] = useState("");
+    const [actionNeeded, setactionNeeded] = useState("");
+    const [typeCamp, settypeCamp] = useState("");
+    const [screeningPlace, setscreeningPlace] = useState("");
+    const [organiser, setorganiser] = useState("");
+    const [contactNumber, setcontactNumber] = useState("");
+    const [address, setaddress] = useState("");
+    const [screenedTotal, setscreenedTotal] = useState("");
+    const [refractiveErrors, setrefractiveErrors] = useState("");
+    const [spectaclesDistributed, setspectaclesDistributed] = useState("");
+    const [checked, setchecked] = useState("");
+    const [refer, setrefer] = useState("");
+    const [staff, setstaff] = useState("");
+    const [lowVision, setlowVision] = useState("");
+
+    const [APIResponse, setAPIResponse] = useState(null);
+    const [focusedInput, setFocusedInput] = useState(null);
+
+    function myFunction() {   
+    }
+
+    const handleSubmit = async (e, selectedOption) => {
+
+    }
+    
     return (
     
     <> 
@@ -1413,8 +1469,8 @@ alt=""
                 </label>
                 <div className="mt-2.5">
                     <input
-                        onChange={(e) => setlowVision(parseInt(e.target.value))}
-                        type="number"
+                        onChange={(e) => setlowVision(parseInt(e.target.checked))}
+                        type="checkbox"
                         name="low-vision"
                         id="low-vision"
                         autoComplete="low-vision"
