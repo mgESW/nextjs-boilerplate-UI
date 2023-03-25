@@ -82,10 +82,10 @@ Vision Aid Partner Tracking
 </p>
 </div>
 <form action="#" method="POST" onSubmit={(e) => handleSubmit(e, selectedOption)}
-  className="mx-auto mt-16 max-w-xl sm:mt-20">
-<div className="grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2">
+  className={styles.main}>
+<div className={styles.main}>
     <div>
-        <label htmlFor="option-select" className="block text-sm font-semibold leading-6 text-gray-900">
+        <label htmlFor="option-select" className={styles.main}>
             Select the desired subcategory
         </label>
         <div className="mt-2.5">
