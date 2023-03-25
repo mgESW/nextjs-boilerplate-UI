@@ -73,19 +73,16 @@ height={144}
 width={144}
 alt=""
 />
-<div className={styles.center}>
-<h2 className={styles.main}>
-Vision Aid Partner Tracking
-    System</h2>
-<p className={styles.grid}>
+<div className={styles.main}>
+<p className={styles.code}>
     This form is for submitting the personal information of a beneficiary
 </p>
 </div>
 <form action="#" method="POST" onSubmit={(e) => handleSubmit(e, selectedOption)}
-  className={styles.main}>
-<div className={styles.main}>
-    <div>
-        <label htmlFor="option-select" className={styles.main}>
+  className={styles.card}>
+<h1 className={styles.card}>
+    <h1>
+        <label htmlFor="option-select" className={styles.card}>
             Select the desired subcategory
         </label>
         <div className="mt-2.5">
@@ -93,15 +90,12 @@ Vision Aid Partner Tracking
             id="option-select"
             name="option-select"
             onChange={(e) => setSelectedOption(e.target.value)}
-            className="border-gray-400 rounded-md shadow-sm focus:border-primary-500 focus:ring-primary-500 focus:ring-opacity-50">
+            className={styles.card}>
             <option value="">Subcategory</option>
-            <option value="computer-training">Computer Training</option>
-            <option value="mobile-training">Mobile Training</option>
-            <option value="orientation-mobility-training">Orientation Mobility Training</option>
-            <option value="vision-enhancement">Vision Enhancement</option>
-            <option value="counselling-education">Counselling & Education</option>
-            <option value="camps">Camps</option>
-            <option value="school-screenings">School Screenings</option>
+            <option value="low-vision-screening">Low Vision Screening</option>
+            <option value="comp-low-vision">Comprehensive Low Vision Evaluation</option>
+            <option value="functional-vision">Functional Vision</option>
+    
             </select>
         </div>
         {selectedOption === 'computer-training' && (
@@ -1481,8 +1475,8 @@ Vision Aid Partner Tracking
             </div>
             </>
         )}
-    </div>
-</div>
+    </h1>
+</h1>
 <div className="mt-10">
     <p id="demo"></p>
     <button
