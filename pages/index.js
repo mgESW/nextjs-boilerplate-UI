@@ -62,7 +62,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href=""
+            href="https://vision-aid-prototype-v1.vercel.app/requiredfields"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
